@@ -9,7 +9,6 @@ body {
 .container	{
 	width: 100%;
 	background-color: #606161;
-	position: absolute;
 }
 
 .box	{
@@ -44,50 +43,132 @@ header h2 {
 	color: white;
 }
 
-.headerbutton p {
+.headerbutton {
 	float: left;
-	width: 130px;
-	padding: 8px 25px;
-	background-color: #f9e42e;
-	font-weight: 800;
-	font-size: 14px;
-	border-radius: 5px;
 	margin-top: 50px;
 	margin-left: 235px;
-	color: #033048;
+	border-radius: 5px;
+	width: 130px;
 	height: 30px;
+	background-color: #f9e42e;
+}
+
+.headerbutton p {
+	text-align: center;
+	padding-top: 8px;
+	font-weight: 800;
+	font-size: 14px;
+	color: #033048;
+
 }
 
 main {
-	height: 400px;
+	height: 300px;
 	background-color: #f0efef;
 }
 
 .maincontent	{
 	float: left;
-	position: relative;
-	margin-left: 80px;
-	margin-top: 100px;
-	width: 50%;
+	width: 370px;
+	height:250px;
 }
 .maincontent h3	{
+	margin-top: 40px;
+	margin-left: 60px;
 	font-size: 20px;
 	font-weight: 600;
 }
 
 .maincontent p	{
+	margin-left: 65px;
 	margin-top: 20px;
 	font-size: 13px;
 	font-weight: 300;
 }
 
-.bullets {
-	width: 50%;
+.maincontent ul {
+	width: 200px;
 	margin-top: 30px;
-	position: relative;
-	margin-left: 50px;
-	margin-right: auto;
+	margin-left: 115px;
 	line-height: 1.5;
 	font-size: 13px;
 	font-weight: 300;
+}
+
+.testimonial {
+	float: left;
+	height: 200px;
+	background: url(testimonial_bg.jpg) no-repeat center top;
+	text-align: center;
+	color: white;
+	font-weight: 
+}
+
+.testimonial_quote {
+	margin: 50px 150px 10px 150px;
+	font-size: 18px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.testimonial_name {
+	margin-top: 5px;
+	margin-bottom: 30px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.signup_container {
+	height: 60px;
+	background-color: #f9e42e;
+}
+
+.signup {
+	float: left;
+	border-radius: 5px;
+	height: 30px;
+	width: 150px;
+	margin-top: 15px;
+	margin-left: 235px;
+	background-color: #033048;
+}
+.signup p {
+	font-weight: 800;
+	font-size: 12px;
+	color: white;
+	margin-top: 9px;
+	text-align: center;
+}
+
+footer {
+	height: 200px;
+	background-color: #121212;
+}
+
+.footertop h1{
+	margin-top: 40px;
+	color: #f9e42e;
+	font-size: 24px;
+	font-weight: 800;
+	text-align: center;
+}
+
+.icons	{
+	display: inline-block;
+	position: center;
+	margin-top: 20px;
+	height: 20px;
+}
+
+.copy {
+	font-weight: 600;
+	font-size: 9px;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 5px;
+	color: white;
 }
