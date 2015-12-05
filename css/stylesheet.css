@@ -39,21 +39,23 @@ header h2 {
 	margin-top: 50px;
 	margin-left: 95px;
 	margin-right: 50px;
-	width: 500px;
 	font-weight: 600;
 	font-size: 24px;
 	color: white;
 }
 
 .headerbutton p {
+	float: left;
 	width: 130px;
+	padding: 8px 25px;
 	background-color: #f9e42e;
 	font-weight: 800;
 	font-size: 14px;
 	border-radius: 5px;
-	float: left;
-	margin-top: 120px;
+	margin-top: 50px;
+	margin-left: 235px;
 	color: #033048;
+	height: 30px;
 }
 
 main {
