@@ -18,7 +18,7 @@ body {
 }
 
 .headerimage	{
-	background: url(header_bg.jpg) no-repeat center top;
+	background: url(../images/header_bg.jpg) no-repeat center top;
 	background-size: cover;	
 	height: 350px;
 }
@@ -91,7 +91,7 @@ main {
 
 .testimonial {
 	height: 200px;
-	background: url(testimonial_bg.jpg) no-repeat center top;
+	background: url(../images/testimonial_bg.jpg) no-repeat center top;
 	text-align: center;
 	color: white;
 	font-weight: 
